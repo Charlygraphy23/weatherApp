@@ -2,37 +2,73 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotron{
+  background:  rgba(0,0,0,0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  background : rgba(0,0,0,0);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btnInputgroup{
+  position : absolute;  
+  width : 65%;
+  margin : 10px;
+  top : 10%;
+  right : 20%;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.serchBox{
+  position : absolute;  
+  width : 20%;
+  margin : 10px;
+  top : 10%;
+  right : 2%;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-toggler{
+  background : #EAF0F1
+}
+
+.rt{
+  background : rgba(255,255,255,0);
+}
+.rt:focus{
+  outLine: none;
+  background : rgba(0,0,0,0.2);
+}
+
+.card{
+  border-radius: 100px 100px 100px 100px;
+  background : rgba(255,255,255,0.5);
+  border : 2px solid white
+}
+
+.card:hover{
+  color : white;
+  box-shadow: 1px 2px 140px black;
+  transition : 0.3s all;
+  margin-top : -5px;
+  cursor: pointer;
+}
+
+.wr{
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+}
+
+.text{
+  opacity: 0.6;
+}
+
+.info{
+  background : rgba(0, 0, 0, 0.27);
+  
+
+}
+.weatherText{
+  font-size: 2rem;
 }
